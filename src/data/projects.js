@@ -1,17 +1,17 @@
 const projects = [
-    {title: "Photography Shop",
+    {title: "Reslient Coders",
         techStack: ["React"],
-        description: "Photography Print Shop with Augmented Reality",
+        description: "Consulted as a community manager",
         link: "resilientcoders.org"
     },
-    {title: "RC Submit",
+    {title: "Brazusa Cleaning",
         techStack: ["React", "HTML", "CSS"],
-        description: "Submission Platform",
+        description: "Entire company digitization and management",
         link: "resilientcoders.org"
     },
-    {title: "Jira Plug",
+    {title: "Tillinger's Concierge",
         techStack: ["Javascript", "Node.JS"],
-        description: "Custom Jira Plugin",
+        description: "Upcoming client project",
         link: "resilientcoders.org"
     }
 ]

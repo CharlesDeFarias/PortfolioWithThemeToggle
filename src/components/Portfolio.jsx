@@ -6,11 +6,10 @@ import AboutMe from "./AboutMe";
 //may have to move aboutme and contact into here afte rall
 
 const Portfolio = ({theme, isDark, handleToggle}) => {
-//  console.log(handleToggle)
   return (
     <div className={`parentDiv ${theme}`} id="portfolioParent">      <header>
         <h1>
-            THE <small>eventually</small> AMAZING PORTFOLIO OF THE <small>eventually</small> AMAZING CHARLES
+            THE <small><small><small><small>eventually</small></small></small></small> AMAZING PORTFOLIO OF THE <small><small><small><small>eventually</small></small></small></small> AMAZING CHARLES
         </h1>
       </header>
       <main>

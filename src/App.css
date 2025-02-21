@@ -3,10 +3,23 @@
   color: #fff;
 }
 
+.projectCard {
+  border-radius: 1em;
+  margin-bottom: .5em;
+  padding-bottom: .5em;
+  transition: border 300ms;
+}
+.projectCard.Light {
+  border: 2px solid black
+}
+.projectCard.Dark {
+  border: 2px solid white
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: .2 rem;
   text-align: center;
 }
 
