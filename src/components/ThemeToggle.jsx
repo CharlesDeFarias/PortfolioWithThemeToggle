@@ -1,8 +1,6 @@
 function ThemeToggle({handleToggle, theme, isDark}) {
     const message = isDark ? "Go ahead, click it and blind yourself" : "Join the dark side and unfurrow that brow"
-// console.log(handleToggle)
-// console.log(theme)
-// console.log(isDark)
+
 let altTheme = isDark ? "Light" : "Dark"
 
 return (
