@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Portfolio from "./components/Portfolio";
-import "./styles.css";
+import "./app.css";
 
 const App = () => {
   //want to start with darkmode by default because it's the superior mode. fite me.

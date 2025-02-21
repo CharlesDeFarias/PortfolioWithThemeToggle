@@ -3,6 +3,7 @@ function ThemeToggle({handleToggle, theme, isDark}) {
 // console.log(handleToggle)
 // console.log(theme)
 // console.log(isDark)
+let altTheme = isDark ? "Light" : "Dark"
 
 return (
         <div id="toggleDiv" className={`parentDiv ${theme} themeToggle`}>
@@ -10,7 +11,7 @@ return (
             className="btn"
             onClick={handleToggle}
           >
-            Switch to {theme} Mode Theme.
+            Switch to {altTheme} Mode Theme.
           </button>
           <span>{message}</span>
         </div>
